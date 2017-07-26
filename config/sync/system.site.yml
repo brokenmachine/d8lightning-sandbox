@@ -1,0 +1,14 @@
+uuid: 1b4ac6a5-f1ec-4329-86d5-8648e41c9bd6
+name: 'D8 Lightning Test Site'
+mail: dtaylor@hwcinc.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
