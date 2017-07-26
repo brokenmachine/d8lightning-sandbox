@@ -1,0 +1,20 @@
+uuid: e5524076-0f76-492b-8a35-4d1e22a57c22
+langcode: en
+status: true
+dependencies:
+  theme:
+    - floodsmart
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: floodsmart_local_actions
+theme: floodsmart
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

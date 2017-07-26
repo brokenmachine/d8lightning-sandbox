@@ -1,0 +1,22 @@
+uuid: 0ebdc76d-9cc5-45e9-8cba-f6ffc14778fc
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - floodsmart
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: floodsmart_breadcrumbs
+theme: floodsmart
+region: navigation
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

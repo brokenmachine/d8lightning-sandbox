@@ -1,0 +1,22 @@
+uuid: d88063b5-e9c9-4503-968a-88669922a020
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - floodsmart
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: floodsmart_content
+theme: floodsmart
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
