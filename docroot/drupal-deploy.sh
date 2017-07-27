@@ -12,7 +12,7 @@ git status
 # perform any required composer updates (new modules, themes, etc.)
 printf '\nRUNNING COMPOSER\n'
 echo '----------------'
-/usr/bin/composer update --no-interaction
+#/usr/bin/composer update --no-interaction
 /usr/bin/composer install --no-interaction
 # cd into Drupal siteroot so we can run drush commands
 cd docroot
