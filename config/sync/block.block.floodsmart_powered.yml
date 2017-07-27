@@ -1,6 +1,6 @@
 uuid: d8bd99c7-b756-405e-9583-2ba41a51f3e7
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: floodsmart_powered
 theme: floodsmart
 region: navigation
-weight: 10
+weight: -7
 provider: null
 plugin: system_powered_by_block
 settings:
