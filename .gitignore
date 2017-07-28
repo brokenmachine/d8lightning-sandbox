@@ -19,3 +19,7 @@ docroot/autoload.php
 
 # ignore drush config dir
 .drush/
+
+# ignore local Drupal settings files
+docroot/sites/default/local.services.yml
+docroot/sites/default/settings.local.php
