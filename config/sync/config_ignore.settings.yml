@@ -2,5 +2,6 @@ ignored_config_entities:
   0: devel.settings.yml
   2: devel.toolbar.settings.yml
   4: system.menu.devel.yml
+  6: core.extension
 _core:
   default_config_hash: UVH1aJ4b44UM-VdPVN7hNNuuVqfReJxwfVeDQH1Hvsk
