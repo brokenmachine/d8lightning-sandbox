@@ -6,6 +6,7 @@ dependencies:
     - entity_browser.browser.image_browser
     - field.field.node.recipe.body
     - field.field.node.recipe.field_chef
+    - field.field.node.recipe.field_dish_t
     - field.field.node.recipe.field_ingredient_list
     - field.field.node.recipe.field_prep_time
     - field.field.node.recipe.field_preparation_instructions
@@ -38,6 +39,15 @@ content:
     third_party_settings: {  }
   field_chef:
     weight: 36
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_dish_t:
+    weight: 37
     settings:
       match_operator: CONTAINS
       size: 60

@@ -1,0 +1,9 @@
+uuid: 07e819e9-c0a9-4b21-8a05-ff21459a4d00
+langcode: en
+status: true
+dependencies: {  }
+name: 'Dish Type'
+vid: dish_type
+description: 'type of dish (entree, main, dessert, etc)'
+hierarchy: 0
+weight: 0
