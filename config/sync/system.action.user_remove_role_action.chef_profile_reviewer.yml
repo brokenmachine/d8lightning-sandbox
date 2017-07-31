@@ -1,0 +1,14 @@
+uuid: 5fa594df-5992-4d80-a8ce-6ab34f0f762b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.chef_profile_reviewer
+  module:
+    - user
+id: user_remove_role_action.chef_profile_reviewer
+label: 'Remove the Chef Profile reviewer role from the selected users'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: chef_profile_reviewer

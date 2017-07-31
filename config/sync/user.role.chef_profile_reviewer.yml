@@ -1,0 +1,18 @@
+uuid: 671c87be-ffcb-4902-9c4a-e820d54f264f
+langcode: en
+status: true
+dependencies: {  }
+id: chef_profile_reviewer
+label: 'Chef Profile reviewer'
+weight: 10
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'delete any chef_profile content'
+  - 'edit any chef_profile content'
+  - 'use draft_published transition'
+  - 'use needs_review_draft transition'
+  - 'use needs_review_published transition'
+  - 'use published_archived transition'
+  - 'use published_published transition'
+  - 'view moderation states'

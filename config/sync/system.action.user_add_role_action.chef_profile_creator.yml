@@ -1,0 +1,14 @@
+uuid: dfd74b90-5f9f-4915-9273-c7babb75db0f
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.chef_profile_creator
+  module:
+    - user
+id: user_add_role_action.chef_profile_creator
+label: 'Add the Chef Profile creator role to the selected users'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: chef_profile_creator

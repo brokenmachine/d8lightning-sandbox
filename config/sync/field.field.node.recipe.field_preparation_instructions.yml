@@ -1,0 +1,21 @@
+uuid: c31c5a88-b2be-4446-a253-137c869f4e5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_preparation_instructions
+    - node.type.recipe
+  module:
+    - text
+id: node.recipe.field_preparation_instructions
+field_name: field_preparation_instructions
+entity_type: node
+bundle: recipe
+label: 'Preparation Instructions'
+description: 'The steps to make the dish.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

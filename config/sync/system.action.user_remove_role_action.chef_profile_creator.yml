@@ -1,0 +1,14 @@
+uuid: 5bfd7a37-49ad-4663-b688-613656251227
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.chef_profile_creator
+  module:
+    - user
+id: user_remove_role_action.chef_profile_creator
+label: 'Remove the Chef Profile creator role from the selected users'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: chef_profile_creator

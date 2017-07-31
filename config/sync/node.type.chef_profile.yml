@@ -1,0 +1,18 @@
+uuid: 449c29b5-881a-4452-841e-2cee7e3687ec
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Chef Profile'
+type: chef_profile
+description: 'A Profile for a Chef'
+help: 'Name of the chef'
+new_revision: true
+preview_mode: 2
+display_submitted: true

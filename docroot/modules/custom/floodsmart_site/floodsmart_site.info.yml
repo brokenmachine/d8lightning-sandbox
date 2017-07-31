@@ -1,0 +1,10 @@
+name: Site
+description: 'Provides site components.'
+type: module
+core: 8.x
+dependencies:
+  - block_content
+  - field
+  - text
+  - workbench_moderation
+package: floodsmart

@@ -1,0 +1,22 @@
+uuid: 199c5eaa-1e12-4312-b578-8219a4fba320
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.chef_profile
+  module:
+    - text
+id: node.chef_profile.body
+field_name: body
+entity_type: node
+bundle: chef_profile
+label: Bio
+description: 'The biography of the chef'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

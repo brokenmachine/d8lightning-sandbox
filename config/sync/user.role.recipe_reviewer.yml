@@ -1,0 +1,18 @@
+uuid: 5cb7ea59-d9cc-49b4-b2c7-3c12a93dc3f3
+langcode: en
+status: true
+dependencies: {  }
+id: recipe_reviewer
+label: 'Recipe reviewer'
+weight: 8
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'delete any recipe content'
+  - 'edit any recipe content'
+  - 'use draft_published transition'
+  - 'use needs_review_draft transition'
+  - 'use needs_review_published transition'
+  - 'use published_archived transition'
+  - 'use published_published transition'
+  - 'view moderation states'
