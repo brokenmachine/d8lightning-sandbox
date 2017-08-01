@@ -1,0 +1,22 @@
+uuid: 34f84556-18a1-456b-8c7f-732a0e303ea3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.chef_profile
+id: node.chef_profile.promote
+field_name: promote
+entity_type: node
+bundle: chef_profile
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
