@@ -23,3 +23,8 @@ docroot/autoload.php
 # ignore local Drupal settings files
 docroot/sites/default/local.services.yml
 docroot/sites/default/settings.local.php
+
+# ignore these configs since they are used by the devel module, which is not in non-local environments
+config/sync/devel.settings.yml
+config/sync/devel.toolbar.settings.yml
+config/sync/system.menu.devel.yml
