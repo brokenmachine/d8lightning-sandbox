@@ -1,0 +1,6 @@
+ignored_config_entities:
+  0: devel.settings
+  2: devel.toolbar.settings
+  4: system.menu.devel
+_core:
+  default_config_hash: UVH1aJ4b44UM-VdPVN7hNNuuVqfReJxwfVeDQH1Hvsk
