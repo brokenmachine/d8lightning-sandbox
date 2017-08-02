@@ -15,5 +15,6 @@ dependencies:
   - taxonomy
   - text
   - user
+  - views
   - workbench_moderation
 package: floodsmart
