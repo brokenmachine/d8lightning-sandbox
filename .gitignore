@@ -28,3 +28,8 @@ docroot/sites/default/settings.local.php
 config/sync/devel.settings.yml
 config/sync/devel.toolbar.settings.yml
 config/sync/system.menu.devel.yml
+
+# ignore this one so that modules don't get enable automatically in the target environments
+# this means it must be done by hand, but I don't want to introduce complexity with the 
+# Config Split module right now
+config/sync/core.extension.yml
