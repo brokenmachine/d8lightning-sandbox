@@ -28,3 +28,8 @@ docroot/sites/default/settings.local.php
 config/sync/devel.settings.yml
 config/sync/devel.toolbar.settings.yml
 config/sync/system.menu.devel.yml
+
+# ignore these because features is disabled in target environment
+config/sync/features.bundle.default.yml
+config/sync/features.bundle.floodsmart.yml
+config/sync/features.settings.yml
