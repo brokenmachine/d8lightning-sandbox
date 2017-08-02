@@ -1,3 +1,6 @@
 /**
  * Place your custom styles here.
  */
+h1.page-header {
+    text-align: center;
+}
