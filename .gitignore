@@ -24,12 +24,12 @@ docroot/autoload.php
 docroot/sites/default/local.services.yml
 docroot/sites/default/settings.local.php
 
-# ignore these configs since they are used by the devel module, which is not in non-local environments
+# ignore these configs since they are used by the devel module, which should not be enabled in non-local environments
 config/sync/devel.settings.yml
 config/sync/devel.toolbar.settings.yml
 config/sync/system.menu.devel.yml
 
-# ignore these because features is disabled in target environment
+# ignore these because features it should not be enabled in non-local environments
 config/sync/features.bundle.default.yml
 config/sync/features.bundle.floodsmart.yml
 config/sync/features.settings.yml
