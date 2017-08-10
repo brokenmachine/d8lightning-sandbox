@@ -20,3 +20,4 @@ permissions:
   - 'administer panelizer node landing_page defaults'
   - 'administer panelizer node page defaults'
   - 'administer panelizer node recipe defaults'
+  - 'administer panelizer node restaurant defaults'

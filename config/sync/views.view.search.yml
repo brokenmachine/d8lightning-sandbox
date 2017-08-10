@@ -81,6 +81,7 @@ display:
               landing_page: teaser
               recipe: default
               chef_profile: default
+              restaurant: default
       fields:
         rendered:
           table: search_api_index_content

@@ -28,6 +28,7 @@ field_settings:
           landing_page: full
           recipe: default
           chef_profile: default
+          restaurant: default
   label:
     label: Label
     property_path: aggregated_field
