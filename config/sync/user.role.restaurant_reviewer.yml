@@ -1,0 +1,18 @@
+uuid: 49fc493b-0296-419e-b99e-f1a56997acc2
+langcode: en
+status: true
+dependencies: {  }
+id: restaurant_reviewer
+label: 'Restaurant reviewer'
+weight: 12
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'delete any restaurant content'
+  - 'edit any restaurant content'
+  - 'use draft_published transition'
+  - 'use needs_review_draft transition'
+  - 'use needs_review_published transition'
+  - 'use published_archived transition'
+  - 'use published_published transition'
+  - 'view moderation states'
