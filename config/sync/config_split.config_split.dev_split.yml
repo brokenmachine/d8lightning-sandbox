@@ -1,0 +1,17 @@
+uuid: 7d9debcf-c9b5-415d-99a6-955f6cd9b5af
+langcode: en
+status: true
+dependencies: {  }
+id: dev_split
+label: 'Dev split'
+folder: sync-dev
+module:
+  devel: 0
+  features: 0
+  features_ui: 0
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

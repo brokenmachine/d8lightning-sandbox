@@ -7,7 +7,7 @@ module:
   ckeditor: 0
   config: 0
   config_filter: 0
-  config_ignore: 0
+  config_split: 0
   config_update: 0
   contact: 0
   contact_storage: 0
@@ -16,7 +16,6 @@ module:
   ctools_block: 0
   datetime: 0
   dblog: 0
-  devel: 0
   diff: 0
   editor: 0
   embed: 0
@@ -25,8 +24,6 @@ module:
   entity_browser: 0
   entity_embed: 0
   entity_reference: 0
-  features: 0
-  features_ui: 0
   field: 0
   field_ui: 0
   file: 0
@@ -69,9 +66,12 @@ module:
   path: 0
   quickedit: 0
   rdf: 0
+  rest: 0
+  restui: 0
   scheduled_updates: 0
   search_api: 0
   search_api_db: 0
+  serialization: 0
   shortcut: 0
   system: 0
   taxonomy: 0
