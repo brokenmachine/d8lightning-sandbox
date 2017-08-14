@@ -20,6 +20,6 @@ echo '----------------------'
 # perform any Drupal database udpates
 /usr/local/bin/drush updb -y
 # import any configuration elements
-/usr/local/bin/drush cim -y
+# /usr/local/bin/drush cim -y
 # clear the Drupal caches
 /usr/local/bin/drush cr
