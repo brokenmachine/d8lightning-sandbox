@@ -1,7 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: chef_profile_reviewer
-label: 'Chef Profile reviewer'
-weight: 10
-is_admin: null

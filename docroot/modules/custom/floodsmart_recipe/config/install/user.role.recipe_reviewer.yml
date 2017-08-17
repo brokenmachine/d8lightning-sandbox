@@ -1,7 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: recipe_reviewer
-label: 'Recipe reviewer'
-weight: 8
-is_admin: null

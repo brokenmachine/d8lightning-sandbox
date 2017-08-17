@@ -1,7 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: restaurant_creator
-label: 'Restaurant creator'
-weight: 11
-is_admin: null
