@@ -9,11 +9,6 @@ printf '\nRUNNING GIT COMMANDS\n'
 echo '----------------'
 git pull origin master
 git status
-# perform any required non-dev composer updates (new modules, themes, etc.)
-printf '\nRUNNING COMPOSER\n'
-echo '----------------'
-/usr/bin/composer install --no-interaction --no-dev
-# cd into Drupal siteroot so we can run drush commands
 cd docroot
 printf '\nRUNNING DRUSH COMMANDS\n'
 echo '----------------------'
