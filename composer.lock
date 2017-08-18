@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1401f73d8f74dda168b954a4a8624bcb",
+    "content-hash": "2feb3baa1b65174189dda579d328a806",
     "packages": [
         {
             "name": "acquia/lightning",
@@ -2059,6 +2059,29 @@
                 "source": "http://cgit.drupalcode.org/diff",
                 "issues": "https://www.drupal.org/project/issues/diff"
             }
+        },
+        {
+            "name": "drupal/drush-cmi-tools",
+            "version": "dev-8.x-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/previousnext/drush_cmi_tools.git",
+                "reference": "c0566c3bdc14f892459cebc978dc7efa97a9bfd0"
+            },
+            "type": "drupal-drush",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Export configuration to a directory and apply an ignore list.",
+            "homepage": "https://github.com/previousnext/drush_cmi_tools",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "issues": "https://github.com/previousnext/drush_cmi_tools/issues",
+                "source": "https://github.com/previousnext/drush_cmi_tools"
+            },
+            "time": "2017-05-29 21:30:28"
         },
         {
             "name": "drupal/embed",
@@ -10781,6 +10804,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "drupal/drush-cmi-tools": 20,
         "drupal/devel": 5
     },
     "prefer-stable": true,

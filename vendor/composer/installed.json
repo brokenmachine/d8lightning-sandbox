@@ -11126,5 +11126,30 @@
         "support": {
             "source": "http://cgit.drupalcode.org/features"
         }
+    },
+    {
+        "name": "drupal/drush-cmi-tools",
+        "version": "dev-8.x-1.x",
+        "version_normalized": "dev-8.x-1.x",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/previousnext/drush_cmi_tools.git",
+            "reference": "c0566c3bdc14f892459cebc978dc7efa97a9bfd0"
+        },
+        "time": "2017-05-29T21:30:28+00:00",
+        "type": "drupal-drush",
+        "installation-source": "source",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "description": "Export configuration to a directory and apply an ignore list.",
+        "homepage": "https://github.com/previousnext/drush_cmi_tools",
+        "keywords": [
+            "Drupal"
+        ],
+        "support": {
+            "issues": "https://github.com/previousnext/drush_cmi_tools/issues",
+            "source": "https://github.com/previousnext/drush_cmi_tools"
+        }
     }
 ]
