@@ -30,17 +30,12 @@
         "drupal/bootstrap": "^3.5",
         "drupal/config_ignore": "^2.0",
         "drupal/address": "^1.1",
-        "drupal/restui": "^1.15",
-        "drupal/drush-cmi-tools": "dev-8.x-1.x"
+        "drupal/restui": "^1.15"
     },
     "repositories": [
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
-        },
-        {
-            "type": "git",            
-            "url": "https://github.com/previousnext/drush_cmi_tools.git"
         }
     ],
     "scripts": {
