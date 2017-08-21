@@ -7,7 +7,6 @@ module:
   ckeditor: 0
   config: 0
   config_filter: 0
-  config_split: 0
   config_update: 0
   contact: 0
   contact_storage: 0
@@ -46,6 +45,7 @@ module:
   lightning_media_video: 0
   lightning_page: 0
   lightning_roles: 0
+  lightning_scheduled_updates: 0
   lightning_search: 0
   lightning_workflow: 0
   link: 0
